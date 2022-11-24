@@ -1,0 +1,95 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background: #ae86ff;
+}
+
+h1 {
+	font-family: 'Roboto';
+	font-size: 32px;
+	color: #f5f5f5;
+}
+
+p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+/* Header */
+
+header {
+	background: #0f0f0f;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 40px;
+}
+
+/* Main */
+
+main {
+	flex: 1 0 auto;
+	padding: 30px 15px;
+	width: auto;
+}
+
+main h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+/* Footer */
+
+footer {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: #0f0f0f;
+	padding: 27px 20px;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: row;
+}
+
+footer p {
+	padding-top: 10px;
+}
+
+.footer-icon {
+	fill: #f5f5f5;
+	width: 34px;
+	padding: 0 9px;
+}
+
+.youtube-icon:hover {
+	fill: #FF0000;
+}
+
+.instagram-icon:hover {
+	fill: #E4405F;
+}
+
+.twitter-icon:hover {
+	fill: #1DA1F2;
+}
+
+.github-icon:hover {
+	fill: #181717;
+}
+
+.copyright-notice {
+	padding-top: 10px;
+}
